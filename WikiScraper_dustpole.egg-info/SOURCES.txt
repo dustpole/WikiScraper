@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+WikiScraper/__init__.py
+WikiScraper/__main__.py
+WikiScraper/stop_lists/__init__.py
+WikiScraper/stop_lists/english.txt
+WikiScraper_dustpole.egg-info/PKG-INFO
+WikiScraper_dustpole.egg-info/SOURCES.txt
+WikiScraper_dustpole.egg-info/dependency_links.txt
+WikiScraper_dustpole.egg-info/requires.txt
+WikiScraper_dustpole.egg-info/top_level.txt
