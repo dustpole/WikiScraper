@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: WikiScraper-dustpole
+Version: 1
+Summary: Create a word-list from a scraped webpage.
+Author-email: Dustin Pollreis <dustpole@gmail.com>
+Project-URL: Homepage, https://github.com/dustpole/WikiScraper
+Project-URL: Issues, https://github.com/dustpole/WikiScraper/issues
+Project-URL: Repository, https://github.com/dustpole/WikiScraper.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pathlib
+Requires-Dist: importlib
+
+# WikiScraper
+
+WikiScraper is a Python module for creating custom word-lists from a webpage.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WikiScraper.
+
+```bash
+pip install WikiScraper
+```
+
+## Stand Alone Usage
+
+```bash
+python -m WikiScraper
+```
+## Stand Alone Usage - Example
+```
+python -m WikiScraper
+
+Source URL to be scraped for words: 
+https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon
+
+Minimum character length of words in wordlist: 
+2
+
+Output wordlist filename: 
+wordlist
+
+Do you want to filter out common stop words? (yes, no): 
+no
+
+```
+## Imported Module Usage
+```python
+import WikiScraper
+
+WikiScraper.WordList(url, minimumlength, outputfile, stop_words_value)
+```
+## Imported Module Usage - Example
+```python
+import WikiScraper
+
+WikiScraper.WordList(https://en.wikipedia.org/wiki/List_of_Pok%C3%A9mon, 2, wordlist, yes)
+```
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
