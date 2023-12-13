@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: WikiScraper-dustpole
-Version: 1
+Version: 1.1
 Summary: Create a word-list from a scraped webpage.
 Author-email: Dustin Pollreis <dustpole@gmail.com>
 Project-URL: Homepage, https://github.com/dustpole/WikiScraper
@@ -15,7 +15,6 @@ License-File: LICENSE
 Requires-Dist: requests
 Requires-Dist: beautifulsoup4
 Requires-Dist: pathlib
-Requires-Dist: importlib
 
 # WikiScraper
 
@@ -26,7 +25,7 @@ WikiScraper is a Python module for creating custom word-lists from a webpage.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WikiScraper.
 
 ```bash
-pip install WikiScraper
+pip install WikiScraper-dustpole
 ```
 
 ## Stand Alone Usage

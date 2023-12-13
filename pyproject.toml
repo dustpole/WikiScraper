@@ -1,6 +1,6 @@
 [project]
 name = "WikiScraper_dustpole"
-version = "1"
+version = "1.1"
 authors = [
   { name="Dustin Pollreis", email="dustpole@gmail.com" },
 ]
@@ -16,7 +16,6 @@ dependencies = [
     "requests",
     "beautifulsoup4",
 	"pathlib",
-	"importlib",
 ]
 
 [project.urls]

@@ -7,7 +7,7 @@ WikiScraper is a Python module for creating custom word-lists from a webpage.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install WikiScraper.
 
 ```bash
-pip install WikiScraper
+pip install WikiScraper-dustpole
 ```
 
 ## Stand Alone Usage
